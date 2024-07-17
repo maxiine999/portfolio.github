@@ -61,7 +61,7 @@ import {
                       <div className="font-bold text-[16px]">Social Media</div>
                       <p className="flex flex-row items-center my-[15px] cursor-pointer">
                       <a
-          href="https://www.instagram.com/madhav_mishra/"
+          href="https://www.instagram.com/_madhav_mishra_/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex flex-row items-center"
