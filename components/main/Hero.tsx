@@ -10,7 +10,7 @@ const Hero = () => {
           autoPlay
           muted
           loop
-          className="absolute inset-0 opacity-70 w-full h-full sm:object-cover object-fill "
+          className="rotate-180 absolute inset-0 opacity-70 w-full h-full sm:object-cover object-fill "
         >
           <source src="new5.mp4" type="video/webm" />
         </video>
