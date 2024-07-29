@@ -37,7 +37,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="flex flex-row gap-1 sm:gap-5 sm:ml-5 ml-2 h-full justify-center items-center">
+        <div className="flex flex-row gap-2 sm:gap-5 sm:ml-5 ml-2 h-full justify-center items-center">
           
         {Socials.map((social) => (
             <a
