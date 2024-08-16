@@ -65,15 +65,16 @@ const Contact = () => {
 
   return (
     <>
-   <section className="contactus-section">
-        <div className="container "
+   
+   <div className="container "
           id="Contact">
          <div
       className="flex flex-col items-center justify-center py-7"
       id="projects"
     >
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20 mb-3">
+      <h1 className="text-[40px]  font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20 ">
         Contacts
+
       </h1>
         <div className="">
 
@@ -84,25 +85,25 @@ const Contact = () => {
           {/* right side contact form  */}
 
           <div
-     className="flex items-center justify-center w-full rounded-md border-4 bg-transparent py-3 px-4 text-base text-gray-700 outline-none focus:border-purple-500 focus:shadow-md
+     className="flex items-center justify-center w-full rounded-md border-4  py-3 px-4 text-base outline-none focus:border-purple-500 focus:shadow-md
       "
       
       style={{
-        backgroundColor: '#fff', // Light background color
+        backgroundColor: '', // Light background color
         boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', // Light shadow for depth
         transition: 'all 0.3s ease', // Smooth transition for hover effects
         margin: '20px 0', // Margin for spacing
-        maxWidth: '600px', // Set a max-width for the container
+        maxWidth: '500px', // Set a max-width for the container
         marginLeft: 'auto', // Center align the container
         marginRight: 'auto'
       }}>
-          <div className=" text-[14px] ">
+          <div className=" text-[16px] ">
             <form method="POST">
             <div className="flex flex-col items-center justify-center w-full ">
-  <div className="flex flex-row justify-center w-full max-w-lg ">
-  <div className="flex-1 rounded-lg border-2 border-purple-300 mr-2  "
+  <div className="flex flex-row justify-center w-full max-w-lg ml-2 ">
+  <div className="flex-1 rounded-lg border-2 border-purple-300   "
   style={{
-    backgroundColor: '#fff', // Light background color
+    backgroundColor: '', // Light background color
     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', // Light shadow for depth
     transition: 'all 0.3s ease', // Smooth transition for hover effects
     margin: '20px 0', // Margin for spacing
@@ -110,7 +111,7 @@ const Contact = () => {
   <input
     type="text"
     name="firstName"
-    className="form-control w-full rounded-lg" 
+    className="rounded-lg w-[216px] h-[30px]  " 
     placeholder="First Name"
     value={userData.firstName}
     onChange={postUserData}
@@ -119,7 +120,7 @@ const Contact = () => {
 
     <div className="flex-1 rounded-lg border-2 border-purple-300 ml-2"
       style={{
-        backgroundColor: '#fff', // Light background color
+        backgroundColor: '', // Light background color
         boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', // Light shadow for depth
         transition: 'all 0.3s ease', // Smooth transition for hover effects
         margin: '20px 0', // Margin for spacing
@@ -127,7 +128,7 @@ const Contact = () => {
       <input
         type="text"
         name="lastName"
-        className="form-control w-full rounded-lg"
+        className="rounded-lg w-[216px] h-[30px] "
         placeholder="Last Name"
         value={userData.lastName}
         onChange={postUserData}
@@ -140,7 +141,7 @@ const Contact = () => {
   <div className="flex flex-row justify-center w-full max-w-lg">
     <div className="flex-1 rounded-md border-2 border-purple-300 mr-2"
       style={{
-        backgroundColor: '#fff', // Light background color
+        backgroundColor: '', // Light background color
         boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', // Light shadow for depth
         transition: 'all 0.3s ease', // Smooth transition for hover effects
         margin: '20px 0', // Margin for spacing
@@ -148,7 +149,7 @@ const Contact = () => {
       <input
         type="text"
         name="phone"
-        className="form-control w-full rounded-lg"
+        className="rounded-lg w-[216px] h-[30px]"
         placeholder="Phone Number"
         value={userData.phone}
         onChange={postUserData}
@@ -156,7 +157,7 @@ const Contact = () => {
     </div>
     <div className="flex-1 rounded-md border-2 border-purple-300 ml-2"
       style={{
-        backgroundColor: '#fff', // Light background color
+        backgroundColor: '', // Light background color
         boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', // Light shadow for depth
         transition: 'all 0.3s ease', // Smooth transition for hover effects
         margin: '20px 0', // Margin for spacing
@@ -164,7 +165,7 @@ const Contact = () => {
       <input
         type="text"
         name="email"
-       className="form-control w-full rounded-lg"
+       className="rounded-lg w-[216px] h-[30px]"
         placeholder="Email ID"
         value={userData.email}
         onChange={postUserData}
@@ -173,10 +174,10 @@ const Contact = () => {
   </div>
 </div>
 
-<div className="row w-full">
-  <div className="w-full rounded-md border-2 border-purple-300"
+<div className="row w-full ">
+  <div className="w-full rounded-md border-2 border-purple-300 "
        style={{
-         backgroundColor: '#fff', // Light background color
+         backgroundColor: '', // Light background color
          boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', // Light shadow for depth
          transition: 'all 0.3s ease', // Smooth transition for hover effects
          margin: '20px 0', // Margin for spacing
@@ -194,7 +195,7 @@ const Contact = () => {
               </div>
               <div className="w-full rounded-md border-2 border-purple-300"
   style={{
-    backgroundColor: '#fff', // Light background color
+    backgroundColor: '', // Light background color
     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', // Light shadow for depth
     transition: 'all 0.3s ease', // Smooth transition for hover effects
     margin: '20px 0', // Margin for spacing
@@ -225,7 +226,9 @@ const Contact = () => {
 
 <button
   type="submit"
-  className="py-2 bg-purple-500 rounded-md border-2 border-white-300 hover:bg-purple-600 text-center text-white cursor-pointer rounded-lg w-full max-w-[200px] transition duration-300 ease-in-out"
+  className="py-2 bg-purple-500 rounded-md border-2 border-white-300 hover:bg-purple-600 text-center text-white
+  
+  cursor-pointer rounded-lg w-full max-w-[200px] transition duration-300 ease-in-out"
   onClick={submitData}>
   Submit
 </button>
@@ -238,7 +241,7 @@ const Contact = () => {
           </div>
         </div>
     
-      </section>
+    
     </>
   );
 };
