@@ -68,8 +68,8 @@ const Contact: React.FC = () => {
 
   return (
     <div className="container  sm:py-4" id="Contact">
-      <div className="flex flex-col items-center justify-center py-20 mt-5" id="projects">
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 mb-7">
+      <div className="flex flex-col items-center justify-center py-24 mt-7" id="projects">
+      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 mb-4">
        Contact Me
       </h1>
         <div className="w-full max-w-xl px-4 sm:px-0 ">
