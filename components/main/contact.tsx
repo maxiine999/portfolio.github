@@ -67,10 +67,10 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen  py-4 " id="Contact">
-      <div className="w-full max-w-xl px-4 sm:px-0 ">
-        <div className="shadow-lg rounded-lg p-4 sm:p-6 mt-2 ">
-          <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 mb-9 text-center">
+    <div className="flex items-center justify-center min-h-screen py-4 " id="Contact">
+      <div className="w-full max-w-xl px-4 sm:px-0">
+        <div className="shadow-lg rounded-lg p-4 sm:p-6 ">
+          <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 mb-8 text-center">
             Contact Me
           </h1>
           <form method="POST" onSubmit={submitData}>
