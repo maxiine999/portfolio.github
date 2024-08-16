@@ -69,13 +69,13 @@ const Contact: React.FC = () => {
   return (
     <div className="container  sm:py-4" id="Contact">
       <div className="flex flex-col items-center justify-center py-20 mt-5" id="projects">
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 mb-7">
        Contact Me
       </h1>
         <div className="w-full max-w-xl px-4 sm:px-0 ">
           <div className="shadow-lg rounded-lg p-4 sm:p-6">
             <form method="POST" onSubmit={submitData}>
-              <div className="flex flex-col sm:flex-row gap-4 mb-2">
+              <div className="flex flex-col sm:flex-row gap-2 mb-2">
                 <input
                   type="text"
                   name="firstName"
@@ -94,7 +94,7 @@ const Contact: React.FC = () => {
                 />
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-4 mb-2">
+              <div className="flex flex-col sm:flex-row gap-2 mb-2">
                 <input
                   type="text"
                   name="phone"
@@ -113,7 +113,7 @@ const Contact: React.FC = () => {
                 />
               </div>
 
-              <div className="mb-2">
+              <div className="">
                 <textarea
                   name="address"
                   className="rounded-lg pl-2 border-2 bg-transparent border-purple-300 w-full h-[110px] p-2 text-white placeholder-white placeholder:text-sm"
