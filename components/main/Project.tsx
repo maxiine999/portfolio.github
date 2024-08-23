@@ -22,7 +22,7 @@ const Project = () => {
         />
         <ProjectCard
           src="/CardImage.jpg"
-          title="VR APP"
+          title="3D TaskList"
           description="3D TaskList, Built with React for a dynamic user interface, Tailwind CSS for a sleek and responsive design, and Three.js for engaging 3D elements.innovative to-do list that blends productivity with interactive 3D visuals."
           linktosite="https://threejs-todo-git-main-madhavs-projects-c6d27f53.vercel.app/"  
         />
