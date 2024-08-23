@@ -23,8 +23,8 @@ const Project = () => {
         <ProjectCard
           src="/CardImage.jpg"
           title="VR APP"
-          description="The vr application helps you to stimulate into a parallel world to experiance texture and models.handler can place texture and view various oblect,space which an very cost efficient than direct implementation of it inenv"
-          linktosite="/"  // Example site link
+          description="3D TaskList, Built with React for a dynamic user interface, Tailwind CSS for a sleek and responsive design, and Three.js for engaging 3D elements.innovative to-do list that blends productivity with interactive 3D visuals."
+          linktosite="https://threejs-todo-git-main-madhavs-projects-c6d27f53.vercel.app/"  
         />
       </div>
     </div>
