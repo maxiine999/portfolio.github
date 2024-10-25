@@ -3,11 +3,11 @@ import ProjectCard from "./sub/ProjectCard";
 
 const Project = () => {
   return (
-    <div className="flex flex-col items-center justify-center  " id="projects">
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-48">
+    <div className="flex flex-col items-center justify-center" id="projects">
+      <h1 className="text-4xl sm:text-5xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-16 sm:py-16 mt-16">
         My Projects
       </h1>
-      <div className="h-full w-full flex flex-cols md:flex-row gap-5 px-10 -translate-y-36">
+      <div className="flex flex-col sm:flex-row gap-5 px-5 md:px-10 w-full">
         <ProjectCard
           src="/CardImage2.jpg"
           title="Parralax Zoom"
@@ -23,17 +23,18 @@ const Project = () => {
         <ProjectCard
           src="/SpaceWebsite.png"
           title="PORTFOLIO"
-          description="portfolio is meticulously made using the powerful combination of React, Next.js, and Tailwind CSS. Component-Based Architecture: Build encapsulated components that manage their own state and compose to make UI."
+          description="Portfolio is meticulously made using the powerful combination of React, Next.js, and Tailwind CSS. Component-Based Architecture: Build encapsulated components that manage their own state and compose to make UI."
           linktosite="https://github.com/maxiine999/portfolio.github"
         />
         <ProjectCard
           src="/CardImage.jpg"
           title="3D TaskList"
-          description="3D TaskList, Built with React for a dynamic user interface, Tailwind CSS for a sleek and responsive design, and Three.js for engaging 3D elements.innovative to-do list that blends productivity with interactive 3D visuals."
+          description="3D TaskList, Built with React for a dynamic user interface, Tailwind CSS for a sleek and responsive design, and Three.js for engaging 3D elements. An innovative to-do list that blends productivity with interactive 3D visuals."
           linktosite="https://threejs-todo-git-main-madhavs-projects-c6d27f53.vercel.app/"
         />
       </div>
     </div>
   );
 };
+
 export default Project;
